@@ -17,6 +17,4 @@ export default defineConfig({
       SCORE_API_ENDPOINT: envField.string({context: 'server', access: 'public'})
     }
   },
-
-  adapter: vercel()
 });
